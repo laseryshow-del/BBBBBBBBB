@@ -221,12 +221,12 @@
                     {
                         "type": "TEMPLATE",
                         "key": "overridenCookieDomain",
-                        "value": "laserman.com.ar"
+                        "value": "marremix.laserman.com.ar"
                     },
                     {
                         "type": "TEMPLATE",
                         "key": "userDataObject",
-                        "value": ""
+                        "value": "{{ED - Event ID}}"
                     },
                     {
                         "type": "BOOLEAN",
@@ -274,6 +274,36 @@
                                         "type": "TEMPLATE",
                                         "key": "value",
                                         "value": "{{Página general}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "referrer_url"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Dominio secundario}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "data_processing_options"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ED - User Agent}}"
                                     }
                                 ]
                             }
@@ -483,7 +513,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "overridenCookieDomain",
-                        "value": "laserman.com.ar"
+                        "value": "marremix.laserman.com.ar"
                     },
                     {
                         "type": "BOOLEAN",
@@ -531,6 +561,36 @@
                                         "type": "TEMPLATE",
                                         "key": "value",
                                         "value": "{{Página general}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "referrer_url"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Dominio secundario}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "data_processing_options"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Event Name}}"
                                     }
                                 ]
                             }
@@ -741,7 +801,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "overridenCookieDomain",
-                        "value": "laserman.com.ar"
+                        "value": "marremix.laserman.com.ar"
                     },
                     {
                         "type": "BOOLEAN",
@@ -789,6 +849,36 @@
                                         "type": "TEMPLATE",
                                         "key": "value",
                                         "value": "{{Página general}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "referrer_url"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Dominio secundario}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "data_processing_options"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Event Name}}"
                                     }
                                 ]
                             }
@@ -1735,7 +1825,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "value",
-                        "value": "https://laserman.com.ar"
+                        "value": "laserman.com.ar"
                     }
                 ],
                 "fingerprint": "1770837717892",
