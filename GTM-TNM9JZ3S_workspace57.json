@@ -1266,12 +1266,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "transformation",
-                                        "value": ""
+                                        "value": "trim"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "store",
-                                        "value": ""
+                                        "value": "cookies"
                                     }
                                 ]
                             },
@@ -1366,7 +1366,7 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "transformation",
-                                        "value": ""
+                                        "value": "trim"
                                     },
                                     {
                                         "type": "TEMPLATE",
@@ -1391,7 +1391,7 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "transformation",
-                                        "value": ""
+                                        "value": "trim"
                                     },
                                     {
                                         "type": "TEMPLATE",
