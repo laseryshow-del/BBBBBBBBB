@@ -1157,1182 +1157,6 @@
             {
                 "accountId": "6336855581",
                 "containerId": "242224888",
-                "tagId": "346",
-                "name": "Data Tag - PageView",
-                "type": "cvt_MBTSV",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "event_type",
-                        "value": "standard"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "event_name_standard",
-                        "value": "page_view"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "gtm_server_domain",
-                        "value": "{{Subdomine STAPE}}"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "add_common",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "add_common_cookie",
-                        "value": "true"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "custom_data",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "event_id"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - Event ID}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "em"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - em}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "ph"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - ph}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fn"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fn}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "ln"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - ln}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fbp"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fbp}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fbc"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fbc}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "client_user_agent"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{JS - User Agent}}"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "fingerprint": "1770850000000",
-                "firingTriggerId": [
-                    "2147479553"
-                ],
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_NEEDED"
-                }
-            },
-            {
-                "accountId": "6336855581",
-                "containerId": "242224888",
-                "tagId": "347",
-                "name": "Data Tag - ViewContent Show",
-                "type": "cvt_MBTSV",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "event_type",
-                        "value": "standard"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "event_name_standard",
-                        "value": "view_item"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "gtm_server_domain",
-                        "value": "{{Subdomine STAPE}}"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "add_common",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "add_common_cookie",
-                        "value": "true"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "custom_data",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "event_id"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - Event ID}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "em"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - em}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "ph"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - ph}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fn"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fn}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "ln"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - ln}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fbp"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fbp}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fbc"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fbc}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "client_user_agent"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{JS - User Agent}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "content_name"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "Show_Section"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "fingerprint": "1770850000001",
-                "firingTriggerId": [
-                    "138"
-                ],
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_NEEDED"
-                }
-            },
-            {
-                "accountId": "6336855581",
-                "containerId": "242224888",
-                "tagId": "348",
-                "name": "Data Tag - ViewContent Home",
-                "type": "cvt_MBTSV",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "event_type",
-                        "value": "standard"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "event_name_standard",
-                        "value": "view_item"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "gtm_server_domain",
-                        "value": "{{Subdomine STAPE}}"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "add_common",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "add_common_cookie",
-                        "value": "true"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "custom_data",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "event_id"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - Event ID}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "em"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - em}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "ph"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - ph}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fn"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fn}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "ln"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - ln}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fbp"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fbp}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fbc"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fbc}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "client_user_agent"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{JS - User Agent}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "content_name"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "Home"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "fingerprint": "1770850000002",
-                "firingTriggerId": [
-                    "137"
-                ],
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_NEEDED"
-                }
-            },
-            {
-                "accountId": "6336855581",
-                "containerId": "242224888",
-                "tagId": "349",
-                "name": "Data Tag - Lead",
-                "type": "cvt_MBTSV",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "event_type",
-                        "value": "standard"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "event_name_standard",
-                        "value": "generate_lead"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "gtm_server_domain",
-                        "value": "{{Subdomine STAPE}}"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "add_common",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "add_common_cookie",
-                        "value": "true"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "custom_data",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "event_id"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - Event ID}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "em"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - em}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "ph"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - ph}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fn"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fn}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "ln"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - ln}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fbp"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fbp}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fbc"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fbc}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "client_user_agent"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{JS - User Agent}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "value"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "1000"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "currency"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "ARS"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "fingerprint": "1770850000003",
-                "firingTriggerId": [
-                    "323"
-                ],
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_NEEDED"
-                }
-            },
-            {
-                "accountId": "6336855581",
-                "containerId": "242224888",
-                "tagId": "350",
-                "name": "Data Tag - Lead DK",
-                "type": "cvt_MBTSV",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "event_type",
-                        "value": "standard"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "event_name_standard",
-                        "value": "generate_lead"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "gtm_server_domain",
-                        "value": "{{Subdomine STAPE}}"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "add_common",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "add_common_cookie",
-                        "value": "true"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "custom_data",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "event_id"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - Event ID}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "em"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - em}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "ph"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - ph}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fn"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fn}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "ln"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - ln}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fbp"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fbp}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fbc"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fbc}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "client_user_agent"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{JS - User Agent}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "value"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "1000"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "currency"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "ARS"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "content_name"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "DK_Lead"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "fingerprint": "1770850000004",
-                "firingTriggerId": [
-                    "341"
-                ],
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_NEEDED"
-                }
-            },
-            {
-                "accountId": "6336855581",
-                "containerId": "242224888",
-                "tagId": "351",
-                "name": "Data Tag - Contact WhatsApp",
-                "type": "cvt_MBTSV",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "event_type",
-                        "value": "standard"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "event_name_standard",
-                        "value": "contact"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "gtm_server_domain",
-                        "value": "{{Subdomine STAPE}}"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "add_common",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "add_common_cookie",
-                        "value": "true"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "custom_data",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "event_id"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - Event ID}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "em"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - em}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "ph"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - ph}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fn"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fn}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "ln"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - ln}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fbp"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fbp}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "fbc"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{DL - fbc}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "client_user_agent"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{JS - User Agent}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "content_name"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "WhatsApp_Home"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "value"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "1000"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "currency"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "ARS"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "fingerprint": "1770850000005",
-                "firingTriggerId": [
-                    "139"
-                ],
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_NEEDED"
-                }
-            },
-            {
-                "accountId": "6336855581",
-                "containerId": "242224888",
                 "tagId": "352",
                 "name": "GA4 - ViewContent Show",
                 "type": "gaawe",
@@ -2527,6 +1351,1798 @@
                 "fingerprint": "1770860000000",
                 "firingTriggerId": [
                     "138"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6336855581",
+                "containerId": "242224888",
+                "tagId": "346",
+                "name": "Data Tag - PageView",
+                "type": "cvt_MBTSV",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event_type",
+                        "value": "standard"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event_name_standard",
+                        "value": "page_view"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gtm_server_domain",
+                        "value": "{{Subdomine STAPE}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "add_common",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "add_common_cookie",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "custom_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "event_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - Event ID}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "fbp"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fbp}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "fbc"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fbc}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "client_user_agent"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{JS - User Agent}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "user_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "email_address"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - em}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "phone_number"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - ph}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "first_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fn}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "last_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - ln}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1770850000000",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6336855581",
+                "containerId": "242224888",
+                "tagId": "347",
+                "name": "Data Tag - ViewContent Show",
+                "type": "cvt_MBTSV",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event_type",
+                        "value": "standard"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event_name_standard",
+                        "value": "view_item"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gtm_server_domain",
+                        "value": "{{Subdomine STAPE}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "add_common",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "add_common_cookie",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "custom_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "event_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - Event ID}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "fbp"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fbp}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "fbc"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fbc}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "client_user_agent"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{JS - User Agent}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "content_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Show_Section"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "user_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "email_address"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - em}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "phone_number"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - ph}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "first_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fn}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "last_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - ln}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1770850000001",
+                "firingTriggerId": [
+                    "138"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6336855581",
+                "containerId": "242224888",
+                "tagId": "348",
+                "name": "Data Tag - ViewContent Home",
+                "type": "cvt_MBTSV",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event_type",
+                        "value": "standard"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event_name_standard",
+                        "value": "view_item"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gtm_server_domain",
+                        "value": "{{Subdomine STAPE}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "add_common",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "add_common_cookie",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "custom_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "event_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - Event ID}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "fbp"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fbp}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "fbc"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fbc}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "client_user_agent"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{JS - User Agent}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "content_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Home"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "user_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "email_address"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - em}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "phone_number"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - ph}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "first_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fn}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "last_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - ln}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1770850000002",
+                "firingTriggerId": [
+                    "137"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6336855581",
+                "containerId": "242224888",
+                "tagId": "349",
+                "name": "Data Tag - Lead",
+                "type": "cvt_MBTSV",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event_type",
+                        "value": "standard"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event_name_standard",
+                        "value": "generate_lead"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gtm_server_domain",
+                        "value": "{{Subdomine STAPE}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "add_common",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "add_common_cookie",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "custom_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "event_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - Event ID}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "fbp"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fbp}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "fbc"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fbc}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "client_user_agent"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{JS - User Agent}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "value"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "1000"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "currency"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "ARS"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "user_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "email_address"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - em}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "phone_number"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - ph}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "first_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fn}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "last_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - ln}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1770850000003",
+                "firingTriggerId": [
+                    "323"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6336855581",
+                "containerId": "242224888",
+                "tagId": "350",
+                "name": "Data Tag - Lead DK",
+                "type": "cvt_MBTSV",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event_type",
+                        "value": "standard"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event_name_standard",
+                        "value": "generate_lead"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gtm_server_domain",
+                        "value": "{{Subdomine STAPE}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "add_common",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "add_common_cookie",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "custom_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "event_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - Event ID}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "fbp"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fbp}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "fbc"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fbc}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "client_user_agent"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{JS - User Agent}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "value"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "1000"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "currency"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "ARS"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "content_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "DK_Lead"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "user_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "email_address"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - em}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "phone_number"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - ph}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "first_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fn}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "last_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - ln}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1770850000004",
+                "firingTriggerId": [
+                    "341"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6336855581",
+                "containerId": "242224888",
+                "tagId": "351",
+                "name": "Data Tag - Contact WhatsApp",
+                "type": "cvt_MBTSV",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event_type",
+                        "value": "standard"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event_name_standard",
+                        "value": "contact"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gtm_server_domain",
+                        "value": "{{Subdomine STAPE}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "add_common",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "add_common_cookie",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "custom_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "event_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - Event ID}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "fbp"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fbp}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "fbc"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fbc}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "client_user_agent"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{JS - User Agent}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "content_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "WhatsApp_Home"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "value"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "1000"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "currency"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "ARS"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "user_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "email_address"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - em}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "phone_number"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - ph}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "first_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - fn}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "last_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{DL - ln}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "transformation",
+                                        "value": "none"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "store",
+                                        "value": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1770850000005",
+                "firingTriggerId": [
+                    "139"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT",
                 "monitoringMetadata": {
